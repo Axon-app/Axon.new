@@ -30,3 +30,4 @@ jobs:
           folder: dist
           branch: gh-pages
           clean: true
+          clean-exclude: CNAME
