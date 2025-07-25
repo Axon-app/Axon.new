@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-header {
+  margin-bottom: 2rem;
+}
+
+.card {
+  padding: 2em;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card button {
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.card code {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+@media (prefers-color-scheme: light) {
+  .card {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .card p {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .card code {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
