@@ -1,4 +1,3 @@
-import React from 'react'
 import './App.css'
 import { ThemeProvider } from './context/ThemeContext'
 import MainLayout from './layouts/MainLayout'
